@@ -1,0 +1,38 @@
+Nástroj: ASCII-art
+
+Cílem je vytvořit nástroj - konzolovou utilitu, kterou uživatel bude moci spustit z terminálu. Nástroj na vstupu dostane
+soubor / několik souborů a převede je do ASCII art vizualizace (https://en.wikipedia.org/wiki/ASCII_art). Nástroj
+načítá obrázky ve formátu png a jpg. Kromě toho program umožňuje některé transformace původního obrázku: odraz,
+detekce hran negativ, rozmazání(blurring), doostření obrazu (sharpen filter).
+
+Program načte konfigurační soubor, ve kterém může uživatel uvést jeden nebo více obrázků. U každého souboru je třeba
+určit - cestu k souboru s obrázkem, cestu k souboru pro uložení výsledku(volitelné), počet symbolů v jednom řádku ASCII
+art obrázku (stejný jako počet sloupců), sadu symbolů pro vykreslení, jaké operace použít na obrázek / celou množinu
+obŕazků (volitelné).
+
+V případě více obrázků program začne prezentaci souborů, kterou lze ovládat pomocí menu v konzole: další slide,
+pokračovat, ukončit, aplikovat operaci na obrázek. Snímky se automaticky přepínají po 10 sekundách, prezentaci
+můžete pozastavit/zrušit pozastavení.
+
+//**********************************************************************************************************************
+Polymorfismus
+Třída IMAGE obsahuje informace o obrázku a zpracování obrázku je zajištěno abstraktní třídou image_loader,
+kterou dědí třídy image_loader_png a image_loader_jpg. Tyto třídy přepisují metody pro čtení souborů a získání matice
+šedého obrázku. Třída IMAGE obsahuje ukazatel na image_loader a v závislosti na typu obrázku se používají správné metody.
+
+Abstraktní třída Operation představuje základní třídu pro aplikaci filtru na obrázek. Tuto třídu dědí a přepisují metodu
+applyFilter() třídy Blur.h, Mirror.h, EdgeDetection.h, Negative.h, Sharpen.h.
+//**********************************************************************************************************************
+Použití
+1. Jak nakonfigurovat soubor pro spuštění programu. Příklady správných souborů - params*.txt.
+Pokud chcete definovat filtry pro všechny následující obrázky - napište "Filters for all:", poté uveďte požadované
+čísla filtrů oddělené mezerami: 1 – detekce hran, 2 – zrcadlení, 3 – doostření, 4 – negativ, 5 – rozostření.
+pokud je zadána nečíselná hodnota, filtry se použijí až do první nečíselné hodnoty, pokud je hodnota filtru menší
+než 1 nebo vetší 5, bude vyvolána výjimka. !!!Po filtrech pro všechny není potřeba prázdný řetězec!!! Můžete je napsat
+několikrát a filtry budou přidány pro všechny následující obrázky. Zbytek formátu je víceméně jasný z příkladů, hlavní
+je, že parametry pro jednotlivé obrázky jsou odděleny prázdným řádkem. Na konci prázdný řadek být nesmí.
+
+P.S. Doporučeny sady symbolů jsou "$@B%8&WM#*oahkbdpqwmZO0QLCJUYXzcvunxrjft/|()1{}[]?-_+~<>i!lI;:,\"^`'. ", "@%#*+=-:. "
+Můžete vymyslet i jiné, ale pamatujte si, že čím více vpravo je znak, tím světlejší odstín představuje.
+
+2. Spuštění programu. make run ARG=<file_s_parametry> nebo ./galieraf <file_s_parametry>

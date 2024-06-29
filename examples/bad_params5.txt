@@ -1,0 +1,5 @@
+SourceFile:   not_exist
+DestinationFile: assets/res1.txt
+Width: 300
+ASCIICharacters:    "$@B%8&WM#*oahkbdpqwmZO0QLCJUYXzcvunxrjft/|()1{}[]?-_+~<>i!lI;:,\"^`'. "
+Filters:

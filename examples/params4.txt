@@ -1,0 +1,11 @@
+Filters for all:
+SourceFile:   assets/MyCat.png
+DestinationFile:
+Width: 600
+ASCIICharacters:    "$@B%8&WM#*oahkbdpqwmZO0QLCJUYXzcvunxrjft/|()1{}[]?-_+~<>i!lI;:,\"^`'. "
+Filters:
+
+SourceFile:   assets/MyCat.JPG
+Width: 600
+ASCIICharacters:    "$@B%8&WM#*oahkbdpqwmZO0QLCJUYXzcvunxrjft/|()1{}[]?-_+~<>i!lI;:,\"^`'. "
+Filters:

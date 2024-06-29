@@ -1,0 +1,54 @@
+Filters for all:
+SourceFile:   assets/Ellips.png
+DestinationFile: assets/res1.txt
+Width: 300
+ASCIICharacters:    "$@B%8&WM#*oahkbdpqwmZO0QLCJUYXzcvunxrjft/|()1{}[]?-_+~<>i!lI;:,\"^`'. "
+Filters:
+
+SourceFile:   assets/Kvadrat.png
+Width: 300
+ASCIICharacters:    "$@B%8&WM#*oahkbdpqwmZO0QLCJUYXzcvunxrjft/|()1{}[]?-_+~<>i!lI;:,\"^`'. "
+Filters:
+
+SourceFile:      assets/lenna.png
+DestinationFile:
+Width:      800
+ASCIICharacters:    "1. "
+Filters:
+
+SourceFile:      assets/lenna.png
+DestinationFile:
+Width:      800
+ASCIICharacters:    "@%#*+=-:. "
+Filters: 2
+
+SourceFile: assets/lenna.png
+DestinationFile:
+Width:  800
+ASCIICharacters:  "$@B%8&WM#*oahkbdpqwmZO0QLCJUYXzcvunxrjft/|()1{}[]?-_+~<>i!lI;:,\"^`'. "
+Filters:
+
+SourceFile:   assets/meandmom.jpg
+DestinationFile:
+Width: 800
+ASCIICharacters:    "$@B%8&WM#*oahkbdpqwmZO0QLCJUYXzcvunxrjft/|()1{}[]?-_+~<>i!lI;:,\"^`'. "
+Filters: 3
+
+SourceFile:   assets/MeandSlava.jpg
+Width: 800
+ASCIICharacters:    "$@B%8&WM#*oahkbdpqwmZO0QLCJUYXzcvunxrjft/|()1{}[]?-_+~<>i!lI;:,\"^`'. "
+
+SourceFile:   assets/Raf_drip.jpg
+Width: 800
+ASCIICharacters:    "$@B%8&WM#*oahkbdpqwmZO0QLCJUYXzcvunxrjft/|()1{}[]?-_+~<>i!lI;:,\"^`'. "
+
+SourceFile:   assets/MyCat.png
+DestinationFile:
+Width: 600
+ASCIICharacters:    "$@B%8&WM#*oahkbdpqwmZO0QLCJUYXzcvunxrjft/|()1{}[]?-_+~<>i!lI;:,\"^`'. "
+Filters:
+
+SourceFile:   assets/MyCat.JPG
+Width: 600
+ASCIICharacters:    "$@B%8&WM#*oahkbdpqwmZO0QLCJUYXzcvunxrjft/|()1{}[]?-_+~<>i!lI;:,\"^`'. "
+Filters:

@@ -1,0 +1,11 @@
+Filters for all:
+SourceFile:   assets/Ellips.png
+DestinationFile: assets/res1.txt
+Width: 300
+ASCIICharacters:    "$@B%8&WM#*oahkbdpqwmZO0QLCJUYXzcvunxrjft/|()1{}[]?-_+~<>i!lI;:,\"^`'. "
+Filters:
+
+SourceFile:   assets/Kvadrat.png
+Width: 300
+ASCIICharacters:    "$@B%8&WM#*oahkbdpqwmZO0QLCJUYXzcvunxrjft/|()1{}[]?-_+~<>i!lI;:,\"^`'. "
+Filters:

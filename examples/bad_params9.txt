@@ -1,0 +1,3 @@
+SourceFile:   assets/Ellips.png
+DestinationFile: assets/res1.txt
+Width: 300

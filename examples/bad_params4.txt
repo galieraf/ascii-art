@@ -1,0 +1,5 @@
+SourceFile:   assets/Ellips.png
+DestinationFile: assets/res2
+Width: 300
+ASCIICharacters:    ""
+Filters:

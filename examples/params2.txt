@@ -1,0 +1,19 @@
+Filters for all: 2
+SourceFile:      assets/lenna.png
+DestinationFile: assets/lenna.txt
+Width:      800
+ASCIICharacters:    "1. "
+Filters:
+
+Filters for all: 2
+SourceFile:      assets/lenna.png
+DestinationFile:     assets/lenna.txt
+Width:      800
+ASCIICharacters:    "@%#*+=-:. "
+Filters:
+
+SourceFile: assets/lenna.png
+DestinationFile:    assets/lenna3.txt
+Width:  800
+ASCIICharacters:  "$@B%8&WM#*oahkbdpqwmZO0QLCJUYXzcvunxrjft/|()1{}[]?-_+~<>i!lI;:,\"^`'. "
+Filters:

@@ -1,0 +1,6 @@
+Filters for all:
+SourceFile:   examples/params.txt
+DestinationFile:
+Width: 300
+ASCIICharacters:    "$@B%8&WM#*oahkbdpqwmZO0QLCJUYXzcvunxrjft/|()1{}[]?-_+~<>i!lI;:,\"^`'. "
+Filters:

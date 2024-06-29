@@ -1,0 +1,14 @@
+Filters for all: 2
+SourceFile:   assets/meandmom.jpg
+DestinationFile: assets/res3
+Width: 800
+ASCIICharacters:    "$@B%8&WM#*oahkbdpqwmZO0QLCJUYXzcvunxrjft/|()1{}[]?-_+~<>i!lI;:,\"^`'. "
+Filters: 3
+
+SourceFile:   assets/MeandSlava.jpg
+Width: 800
+ASCIICharacters:    "$@B%8&WM#*oahkbdpqwmZO0QLCJUYXzcvunxrjft/|()1{}[]?-_+~<>i!lI;:,\"^`'. "
+
+SourceFile:   assets/Raf_drip.jpg
+Width: 800
+ASCIICharacters:    "$@B%8&WM#*oahkbdpqwmZO0QLCJUYXzcvunxrjft/|()1{}[]?-_+~<>i!lI;:,\"^`'. "
